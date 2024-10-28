@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    height: 1400px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Bangladesh Flag */
+.green{
+    background: green;
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+.red{
+    background: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+/* Side Social Media Share Icon */
+.bd-flag{
+    position: relative;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-share-icons{
+    position: fixed;
+    right: -80px;
+    bottom: 50%;
+    background: #fff;
+    padding: 10px;
+    border: 2px solid rgb(24, 163, 173);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    transition: 0.5s ease-in;
+}
+.social-share-icons:hover{
+    right: 2px;
+}
+.social-share-icons ul li{
+    list-style: none;
+    line-height: 40px;
+}
+img{
+    width: 100px;
+}
+/* Social Media Icons */
+.social-media{
+    width: 100%;
+    padding: 100px 0;
+    position: fixed;
+    bottom: 0;
+    background: url("../images/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+.social-media-icons{
+    width: 100%;
+    text-align: center;
+}
+.social-media-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-media-icons li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    background: rgb(24, 163, 173);
+    color: #fff;
+    font-size: 25px;
+    margin: 0px 15px;
+    transition: 0.5s;
+}
+.social-media-icons li a:hover{
+    background: rgb(61, 83, 94);
+}
